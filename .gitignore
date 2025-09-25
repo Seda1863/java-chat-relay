@@ -4,3 +4,20 @@ target/
 *.iml
 *.zip
 *.DS_Store
+# Java build
+target/
+*.class
+*.log
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
