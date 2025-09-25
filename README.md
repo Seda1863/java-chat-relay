@@ -41,4 +41,14 @@ Roadmap
 	•	Group chat support
 	•	Chat history persistence
 	•	Authentication & TLS encryption
+## Screenshots
+
+### Login Screen
+![Login Screen](app/screenshots/Ekran%20Resmi%202024-11-30%2015.36.39.png)
+
+### Chat Window
+![Chat Window](app/screenshots/WhatsApp%20Image%202025-09-25%20at%2017.55.21.jpeg)
+
+### User List
+![User List](app/screenshots/WhatsApp%20Image%202dd025-09-25%20at%2017.55.21.jpeg)
 
