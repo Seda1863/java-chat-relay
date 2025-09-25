@@ -9,7 +9,10 @@ A simple client-server chat application built with Java and JavaFX.
 - GUI showing connected users (IP + nickname)  
 - Forwards chat requests to target users and relays responses  
 - Relays messages between two users per chat session  
-- *(Bonus)* planned support for group chats  
+- *(Bonus)* plann![WhatsApp Image 2025-09-25 at 17 55 21](https://github.com/user-attachments/assets/ed05699b-65f1-44e5-82ed-6f9c96c5e361)
+![WhatsApp Image 2dd025-09-25 at 17 55 21](https://github.com/user-attachments/assets/7ab83677-bedc-4c84-bb8a-5be5ab032e30)
+ed support for group chats  
+<img width="596" height="512" alt="Ekran Resmi 2024-11-30 15 36 39" src="https://github.com/user-attachments/assets/c29407b8-6397-4825-82c6-fae9943da52d" />
 
 ### Client
 - Connects to the server  
