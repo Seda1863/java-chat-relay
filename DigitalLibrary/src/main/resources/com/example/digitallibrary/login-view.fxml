@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.digitallibrary.controller.LoginController"
+            stylesheets="@styles/login-style.css">
+    <children>
+        <VBox spacing="10" alignment="CENTER" prefWidth="300" prefHeight="200">
+            <padding>
+                <Insets top="20" right="20" bottom="20" left="20"/>
+            </padding>
+
+            <Label text="Digital Library Login"/>
+
+            <TextField fx:id="usernameField" promptText="Kullanıcı Adı" />
+            <PasswordField fx:id="passwordField" promptText="Şifre" />
+
+            <Label fx:id="messageLabel" text=""/>
+
+            <Button text="Giriş Yap" onAction="#handleLogin" />
+            <Button text="Kayıt Ol" onAction="#handleRegister" />
+        </VBox>
+    </children>
+</AnchorPane>

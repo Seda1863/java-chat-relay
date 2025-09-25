@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox spacing="10" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.library.controller.BookSearchController">
+
+    <padding>
+        <Insets top="10" right="10" bottom="10" left="10"/>
+    </padding>
+
+    <HBox spacing="10" alignment="CENTER_LEFT">
+        <TextField fx:id="searchField"
+                   promptText="Search books..."
+                   HBox.hgrow="ALWAYS"/>
+        <Button text="Search" onAction="#handleSearch"/>
+    </HBox>
+
+    <TableView fx:id="bookTable" VBox.vgrow="ALWAYS">
+        <columns>
+            <TableColumn fx:id="titleColumn" text="Title"/>
+            <TableColumn fx:id="authorColumn" text="Author"/>
+            <TableColumn fx:id="statusColumn" text="Status"/>
+        </columns>
+    </TableView>
+
+    <HBox spacing="10" alignment="CENTER_RIGHT">
+        <Button text="Borrow" onAction="#handleBorrow"/>
+        <Button text="Read Online" onAction="#handleReadOnline"/>
+    </HBox>
+</VBox>

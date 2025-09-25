@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.library.controller.MainController">
+
+    <top>
+        <MenuBar>
+            <Menu text="File">
+                <MenuItem text="Logout" onAction="#handleLogout"/>
+                <MenuItem text="Exit" onAction="#handleExit"/>
+            </Menu>
+        </MenuBar>
+    </top>
+
+    <center>
+        <TabPane>
+            <Tab text="Search Books" closable="false">
+                <fx:include source="bookSearch.fxml"/>
+            </Tab>
+            <Tab text="My Books" closable="false">
+                <fx:include source="borrow.fxml"/>
+            </Tab>
+            <Tab text="Friends" closable="false">
+                <fx:include source="friends.fxml"/>
+            </Tab>
+        </TabPane>
+    </center>
+
+    <bottom>
+        <HBox alignment="CENTER_RIGHT" spacing="10" styleClass="status-bar">
+            <Label fx:id="statusLabel"/>
+        </HBox>
+    </bottom>
+</BorderPane>

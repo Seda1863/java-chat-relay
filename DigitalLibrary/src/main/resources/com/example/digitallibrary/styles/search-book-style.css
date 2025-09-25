@@ -1,0 +1,63 @@
+/* Genel Ayarlar */
+.root {
+    -fx-font-family: 'Segoe UI', sans-serif;
+    -fx-font-size: 14px;
+    -fx-background-color: #f9f9f9; /* Arka plan rengi */
+    -fx-padding: 20;
+}
+
+/* Başlık */
+.label {
+    -fx-text-fill: #333;
+}
+
+.label:first-of-type {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #007bff;
+}
+
+/* TextField */
+.text-field {
+    -fx-padding: 8 10;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+    -fx-background-color: white;
+    -fx-prompt-text-fill: #aaa; /* Placeholder yazı rengi */
+}
+
+.text-field:focused {
+    -fx-border-color: #007bff;
+}
+
+/* ListView */
+.list-view {
+    -fx-border-color: #ddd;
+    -fx-border-radius: 4;
+    -fx-padding: 8;
+}
+
+/* Butonlar */
+.button {
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+    -fx-padding: 10 20;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+}
+
+.button:hover {
+    -fx-background-color: #0056b3;
+}
+
+.button:pressed {
+    -fx-background-color: #003f7f;
+}
+
+/* Mesajlar */
+.label[fx-id="messageLabel"] {
+    -fx-text-fill: red;
+    -fx-font-size: 12px;
+    -fx-font-style: italic;
+}

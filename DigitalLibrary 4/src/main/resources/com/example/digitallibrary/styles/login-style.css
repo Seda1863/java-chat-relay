@@ -1,0 +1,51 @@
+/* Genel Ayarlar */
+.root {
+    -fx-font-family: 'Segoe UI', sans-serif;
+    -fx-font-size: 14px;
+    -fx-background-color: #f9f9f9; /* Arka plan rengi */
+}
+
+/* Başlık */
+.label {
+    -fx-text-fill: #333; /* Başlık yazı rengi */
+}
+
+.label:first-of-type {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #007bff; /* Başlık için mavi renk */
+}
+
+/* TextField ve PasswordField */
+.text-field, .password-field {
+    -fx-padding: 8 10;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+    -fx-background-color: white;
+    -fx-prompt-text-fill: #aaa; /* Placeholder yazı rengi */
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #007bff;
+}
+
+/* Butonlar */
+.button {
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+    -fx-padding: 8 16;
+    -fx-border-radius: 4;
+    -fx-background-radius: 4;
+}
+
+.button:hover {
+    -fx-background-color: #0056b3;
+}
+
+/* Hata Mesajı */
+.label[fx-id="messageLabel"] {
+    -fx-text-fill: red;
+    -fx-font-size: 12px;
+    -fx-font-style: italic;
+}
